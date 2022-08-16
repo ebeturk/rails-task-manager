@@ -1,0 +1,11 @@
+<h1>
+  <%= @task.title %>
+</h1>
+<ul>
+  <li>
+  <%= @task.details %>
+  </li>
+  <input type="checkbox">
+</ul>
+
+<%= link_to 'Edit this task', task_edit_path(@task) %>
